@@ -1,0 +1,45 @@
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f5f7fa;
+        }
+
+        /* Galería */
+        .gallery img {
+            width: 100%;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+
+        /* Imagen principal escritorio */
+        .main-img {
+            aspect-ratio: 16 / 10;
+        }
+
+        /* Miniaturas */
+        .thumb {
+            aspect-ratio: 4 / 3;
+        }
+
+        /* Carrusel móvil */
+        .carousel-img {
+            aspect-ratio: 16 / 10;
+            object-fit: cover;
+        }
+
+        .info-card {
+            border-radius: 16px;
+        }
+
+        .price {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #0d6efd;
+        }
+
+        .feature-box {
+            background: #f1f4f8;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 600;
+        }
